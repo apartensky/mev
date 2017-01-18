@@ -23,14 +23,6 @@ function(ng, DatasetsVM, datasetsTemplate, tutorialsTemplate, googleTemplate, up
 	     	function($stateProvider, $urlRouterProvider, $$animateJsProvider){
 				$urlRouterProvider.when("/datasets", "/datasets/workspace");
 	     		$stateProvider
-					.state("root.datasetsOld", {
-						url: "/datasetsOld",
-						controller: "ImportsCtrl",
-						controllerAs: "ImportsCtrl",
-						parent: "root",
-						templateUrl: "app/views/datasets/_templates/views.datasets.tpl.html",
-						displayName: "datasets"
-					})
 					.state("root.datasets", {
 						url: "/datasets",
 						parent: "root",
