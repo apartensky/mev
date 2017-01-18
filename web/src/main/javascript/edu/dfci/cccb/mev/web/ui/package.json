@@ -94,7 +94,6 @@
     "paths": {
       "geods": "../javascript/geods/Geods.package.js",
       "geods/*": "../javascript/geods/*.js",
-      "extend": "../javascript/extend.js",
 
       "api/*": "../javascript/api/*.js",
       "dataset/*": "../javascript/dataset/*.js",

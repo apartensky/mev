@@ -1,4 +1,4 @@
-define(['extend', "lodash"], function(extend, _){"use strict";
+define(["lodash"], function(_){"use strict";
 
 	//Constructor :: Object -> $Function [View]
     //  Constructor function for new view that takes Object of type dataset and
@@ -43,7 +43,7 @@ define(['extend', "lodash"], function(extend, _){"use strict";
 				var stats = getStats(this);
 				_.assign(self.expression, stats);
 			}			
-			return extend({}, self);
+			return _.assign({}, self);
 		};
 		
 		function getStats(params){
@@ -82,7 +82,7 @@ define(['extend', "lodash"], function(extend, _){"use strict";
 	    	var stats = getStats(self);
 	        _.assign(self.expression, stats);	    		
 	    };
-		extend(self, params);
+		_.assign(self, params);
 	};
 	
 });

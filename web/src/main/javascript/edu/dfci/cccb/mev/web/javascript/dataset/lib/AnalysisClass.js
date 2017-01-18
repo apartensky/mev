@@ -1,4 +1,4 @@
-define(['extend'], function(extend){
+define(["lodash"], function(_){
 	
 	//Constructor :: [AnalysisResponseObject] -> $Function [Analysis]
     //  Used to convert http response for analysis into analysis class
@@ -15,7 +15,7 @@ define(['extend'], function(extend){
 		self.viewType = internalViewTypes[initialData.type]
 
 		    
-		extend(self, initialData)
+		_.assign(self, initialData)
 
 		
 		

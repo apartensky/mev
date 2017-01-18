@@ -1,4 +1,4 @@
-define(['extend'], function(extend){
+define(["lodash"], function(_){
 	
 	//Constructor :: Object -> [Selection]
     //  Constructor using http response data.
@@ -6,7 +6,7 @@ define(['extend'], function(extend){
 		return function(){
 			
 		    var self = this;
-		    extend(self, initialData);
+		    _.assign(self, initialData);
 		    
 		}
 	}
