@@ -1,4 +1,4 @@
-define(['q', 'pouchdb', 'jsLru', 'blobUtil'], function(q, PouchDB, jsLru, blobUtil){
+define(['q', 'pouchdb', './lru', 'blobUtil'], function(q, PouchDB, jsLru, blobUtil){
 	return function ValueStore(dataset, $http, $rootScope){
     	var self = this;    	
     	this.chunkSize = 10e6;

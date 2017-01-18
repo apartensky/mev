@@ -1,7 +1,6 @@
-define(['lodash', 'q', 'jsLru'], function(_, q, jsLru){
+define(['lodash', 'q'], function(_, q){
 	return function ValueStore(dataset, source, $rootScope, mevSettings, mevDb){
-    	var self = this;    	
-    	var lruCache = new jsLru(5);
+    	var self = this;
     	//init swap
     	var dataPromise = init();
     	function init(){	
