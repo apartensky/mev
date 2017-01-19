@@ -3,12 +3,11 @@ define(['angular',
         './lib/loadAnalyses',
         './lib/setSelections',
         './lib/resetSelections',
-        'api/Api',
 		'mev-domain-common'],
 function(angular, DatasetClass,loadAnalyses, setSelections, resetSelections){ "use strict";
 	
-	return angular.module('Mev.Dataset', ['Mev.Api'])
-	.factory('DatasetFactory', ['mevAnalysisRest', 'SelectionResourceService', "$q", "$http", '$rootScope', 'mevAnalysisEventBus', "DashboardItems",
+	return angular.module('Mev.Dataset', [])
+	.factory('DatasetFactory', ['mevAnalysisRest', 'mevSelectionRest', "$q", "$http", '$rootScope', 'mevAnalysisEventBus', "DashboardItems",
 		"mevAnnotationRepository", "mevDatasetRest", "mevDb", "mevSettings",
 	 function(AnalysisResourceService, SelectionResourceService, $q, $http, $rootScope, analysisEventBus, DashboardItems, 
 	 	MevAnnotationRepository, DatasetResourceService, mevDb, mevSettings){
