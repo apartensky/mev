@@ -95,9 +95,7 @@
       "geods": "../javascript/geods/Geods.package.js",
       "geods/*": "../javascript/geods/*.js",
 
-      "api/*": "../javascript/api/*.js",
       "dataset/*": "../javascript/dataset/*.js",
-      "js/orefine/*": "../javascript/orefine/*.js",
 
       "js/project/*": "../javascript/project/*.js",
       "js/alertservice/*": "../javascript/alertservice/*.js",
