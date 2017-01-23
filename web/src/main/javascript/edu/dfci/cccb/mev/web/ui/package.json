@@ -48,6 +48,7 @@
     "mev-pca": "file:../libs/analyses/pca",
     "mev-project": "file:../libs/domain/project",
     "mev-results-table": "file:../libs/widgets/mevResultsTable",
+    "mev-alert": "file:../libs/widgets/mevAlert",
     "mev-scatter-plot": "file:../libs/charts/scatter",
     "mev-steal-bootstrap": "file:../libs/utils/steal-bootstrap",
     "mev-survival": "file:../libs/analyses/survival",
@@ -98,7 +99,6 @@
       "dataset/*": "../javascript/dataset/*.js",
 
       "js/project/*": "../javascript/project/*.js",
-      "js/alertservice/*": "../javascript/alertservice/*.js",
       "js/setmanager/*": "../javascript/setmanager/*.js"
     },
     "map": {
