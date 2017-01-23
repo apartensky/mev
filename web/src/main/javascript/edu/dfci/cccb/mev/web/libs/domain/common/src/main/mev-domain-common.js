@@ -5,6 +5,7 @@ define(["mui", "angular-ui-router",
 	"./services/annotations/AnnotationsLocator",
 	"./services/db/mevDb",
 	"./services/settings/Settings",
+	"./services/alert/AlertService",
 	"./view/db/status/mevDbStatusDirective"
 	], function(ng){ "use strict";
 	return ng.module("mevDomainCommon", arguments, arguments);
