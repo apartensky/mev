@@ -51,7 +51,7 @@ define(["./analysisLog.tpl.html"], function(template){
 		};
 	};
 	AnalysisLogDirective.$name="analysisLog";
-	AnalysisLogDirective.$inject=["mevAnalysisEventBus", "alertService"];
+	AnalysisLogDirective.$inject=["mevAnalysisEventBus", "mevAlertService"];
 	AnalysisLogDirective.$provider="directive";
 	return AnalysisLogDirective;
 });

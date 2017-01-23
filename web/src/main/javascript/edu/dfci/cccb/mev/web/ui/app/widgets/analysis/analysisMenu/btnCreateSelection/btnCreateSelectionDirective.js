@@ -82,6 +82,6 @@ define(["lodash"], function(_){
 		};
 	}; 
 	BtnCreateSelectionDirective.$name = "BtnCreateSelectionDirective";
-	BtnCreateSelectionDirective.$inject = ["alertService"];
+	BtnCreateSelectionDirective.$inject = ["mevAlertService"];
 	return BtnCreateSelectionDirective;
 });

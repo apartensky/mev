@@ -90,6 +90,6 @@ define([], function(){
 		};
 	}; 
 	BtnExportSelectionDirective.$name = "BtnExportSelectionDirective";
-	BtnExportSelectionDirective.$inject = ["alertService", "mevSelectionLocator"];
+	BtnExportSelectionDirective.$inject = ["mevAlertService", "mevSelectionLocator"];
 	return BtnExportSelectionDirective;
 });
