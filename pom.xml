@@ -96,6 +96,7 @@
       </activation>
       <properties>
         <mev.spring_profiles_active>embedded</mev.spring_profiles_active>
+        <MEV_PERSISTENCE_UNIT>mevdb</MEV_PERSISTENCE_UNIT>
       </properties>
     </profile>
     <profile>
